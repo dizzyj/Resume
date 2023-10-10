@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.26)  26 JUL 2023 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.26)  10 OCT 2023 08:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -901,7 +901,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 10.
+(Font)              <7> on input line 11.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\httplink' on input line 32.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\httplink' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\httplink' on input line 36.
+
 [1
 
 
@@ -918,15 +930,24 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.12pt have occurred.
 
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: F120D5DC5BE73AA67B8970635F99772A;1471.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `resume.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `resume.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  EB44D639C64FC87C36C7D45D9F393DBF;2116.
  ) 
 Here is how much of TeX's memory you used:
- 25680 strings out of 475551
- 495934 string characters out of 5762554
- 1956238 words of memory out of 5000000
- 46434 multiletter control sequences out of 15000+600000
- 565436 words of font info for 81 fonts, out of 8000000 for 9000
+ 25678 strings out of 475551
+ 495927 string characters out of 5762554
+ 1954238 words of memory out of 5000000
+ 46426 multiletter control sequences out of 15000+600000
+ 565844 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,11n,129p,1005b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
@@ -936,12 +957,13 @@ ts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/david/AppData
 d/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/U
 sers/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.
 pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmssi17.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmssi9.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb>
-Output written on resume.pdf (1 page, 127059 bytes).
+m/cmssbx10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmssi17.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmssi9.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on resume.pdf (1 page, 136447 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 26717 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 81 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 28685 words of extra memory for PDF output out of 29859 (max. 10000000)
 
