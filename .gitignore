@@ -1,0 +1,5 @@
+details.tex
+*.aux
+*.log
+*.pdf
+*.out

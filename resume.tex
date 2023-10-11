@@ -1,49 +1,79 @@
 \documentclass[10pt,letterpaper,sans]{moderncv}
-\usepackage[margin=1in]{geometry}
-\moderncvstyle{classic}%classic,banking,oldstyle,fancy
+\moderncvstyle{classic}%classic,banking,oldstyle,fancy,casual
 \moderncvcolor{blue}
+
+\usepackage{lastpage}
+% \rfoot{\addressfont\itshape\textcolor{gray}{Page \thepage}}
+
 \usepackage{url}
+\usepackage{multicol}
+% \usepackage{fontawesome}
+% \usepackage[bottom]{footmisc} % enabling footnotes
+% \usepackage{amsmath}
+\usepackage[scale=0.94, footskip=0.5cm]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{0.5cm} % Uncomment to change the width of the dates column
 \input{details}
 \begin{document}
 \clearpage
 \makecvtitle{}
+\vspace{-20pt}
 
 \section{Career Target}
-    Software Engineer -- Computer Graphics
+\colorlet{color1}{black}
+\subsection{\textbf{Software Engineer -- Computer Graphics}}
+\vspace{10pt}
+\definecolor{color1}{rgb}{0.22,0.45,0.70}%
 \section{Key Qulalifications}
-\cvitem{$\bullet$}{Strong skills in the following languages: C, C++, C\#, Racket, Java, Latex, HTML, CSS}
-\cvitem{$\bullet$}{Familiar with Visual Studio, VS Code, Unity, Game Maker Studio 2, Emacs, OpenGL}
+\cvitem{$\bullet$}{Strong skills in the following languages: C, C++, C\#, Racket, and Java.}
+\cvitem{$\bullet$}{Familiar with the following software and technologies: Visual Studio, VS Code, Unity, Game Maker Studio 2, Emacs, and OpenGL.}
+\cvitem{$\bullet$}{Highly motivated team player with an eagerness to learn from industry professionals.}
 % \cvitem{$\bullet$}{}
 % \cvitem{$\bullet$}{}
-% \cvitem{$\bullet$}{}
+\vspace{10pt}
+\definecolor{color1}{rgb}{0.22,0.45,0.70}
 \section{Education}
-\subsection{Bachelor of Science, Computer Science}
+\colorlet{color1}{black}
+
+\subsection{\textbf{Bachelor of Science, Computer Science}}
 \cvitem{$\bullet$}{Western Washington University | \textbf {ABET Accredited} | GPA: 3.18  (2022--Expected Spring24)}
-\subsection{Relevant Coursework:} 
-Algorithms | Operating Systems | Game Programming | Virtual Worlds |  
+\subsection{\textbf{Relevant Coursework:}} 
+\cvitem{$\bullet$}{Algorithms | Operating Systems | Game Programming | Virtual Worlds | Object Oriented Design | Secure Software Development }
 % \subsection{Everett Community College}
 % \cvitem{$\bullet$}{Associates Degree (2019--2022)}
+\vspace{10pt}
+
+\definecolor{color1}{rgb}{0.22,0.45,0.70}%
 \section{Employment}
-\cvitem{$\bullet$}{Hawthorne Learning Solutions Tutor (Jan23--Feb23)}
-\cvitem{$\bullet$}{United States Navy Aviation Electronics Technician (2015--2019)}
-% Performed scheduled and unscheduled maintenance on aircraft avionics such as Radar, Sonar, Laser defence systems, radio communications, and various flight systems. 
+\colorlet{color1}{black}
+\subsection{\textbf{Volunteer as a CS Tutor WWU (Jan23--Jun23)}}
+\cvitem{$\bullet$}{Tutored roughly ten students a week on fundemental Computer Science concepts such as object oriented programming, data structures, and computer systems.}
+\subsection{\textbf{Hawthorne Learning Solutions Tutor (Jan23--Feb23)}}
+\cvitem{$\bullet$}{Tutored a student on fundemental computer systems concepts such as usage of the C language, bitwise operations, and x86 assembly language.}
+\subsection{\textbf{United States Navy Aviation Electronics Technician (2015--2019)}}
+\cvitem{$\bullet$}{Worked as apart of a team in a fast paced environment to reach mission critical deadlines every day.}
+\cvitem{$\bullet$}{Troubleshot, diagnosed, and repaired avionics systems such as RADAR, SONAR, and radio communications.}
+\cvitem{$\bullet$}{Handled, transported, and managed equipment requiring a secret clearance.}
+\vspace{10pt}
 
+\definecolor{color1}{rgb}{0.22,0.45,0.70}%
 \section{Projects}
-\subsection{\httplink[Virtual World Builder System Plugin]{github.com/dizzyj/Virtual-World-BuilderSystem}}
-\cvitem{$\bullet$}{Built in Unity using C\#.This project is a plugin for WWU's virtual world application that allowed players to build 3D objects from primatives and save and manipulate them as a single object through networking calls. }
-\subsection{\httplink[Mage Escape]{github.com/dizzyj/MageEscape}}
-\cvitem{$\bullet$}{A third person action RPG built using Unity.The player traverses multiple levels while solving puzzles and fighting enemies to progress.}
-\subsection{\httplink[OpenGLRenderer]{github.com/dizzyj/OpenGLRenderer}}
-\cvitem{$\bullet$}{A real time renderer in OpenGL written in C++. Uses GLFW for OpenGL contexts and GLAD to manage function pointers. This is an on going project that reflects
-my current understanding of graphics programing topics as I learn them.}
+\colorlet{color1}{black}
+\subsection{\httplink[\textbf{Virtual World Builder System Plugin}]{github.com/dizzyj/Virtual-World-BuilderSystem}}
+\cvitem{$\bullet$}{Worked in a team of four individuals to produce a plugin for a virtual world application that is used in several WWU research papers.}
+\cvitem{$\bullet$}{Extensivly utilized Git on Github to collaborate on the project, resolving many merges of at least four branches.}
+\subsection{\httplink[\textbf{Mage Escape}]{github.com/dizzyj/MageEscape}}
+\cvitem{$\bullet$}{Worked in a team of four individuals to create a 3D person action puzzle game spanning two levels.}
+\cvitem{$\bullet$}{Programmed animations for four different characters and many environmental objects such as chests, doors and torches.}
+\cvitem{$\bullet$}{Designed and implemented  four enemy AI and combat.}
+\subsection{\httplink[\textbf{OpenGLRenderer}]{github.com/dizzyj/OpenGLRenderer}}
+\cvitem{$\bullet$}{Created a basic 3D renderer that can display multiple 3D objects that are dynamically lit by a light sorce using the Blinn-Phong model.}
+\cvitem{$\bullet$}{Wrote various shaders that can apply a texture to an object and simulate lighting using the Blinn-Phong model in the OpenGl Shading Language, or GLSL.}
 
-
-\subsection{Additional Experience}
-\cvitem{$\bullet$}{Intern at Games For Love  (Apr23--Present)}
-\cvitem{$\bullet$}{Volunteer as a CS Tutor WWU (Jan 23--Present)}
+% \subsection{Additional Experience}
+% \cvitem{$\bullet$}{Intern at Games For Love  (Apr23--Present)}
 %\cvitem{$\bullet$}{One year of Japanese language education} I should either get more education or pass the JLPT test before putting this on here. 
 
 
-
+%  \subsection{}
 %  \cvitem{$\bullet$}{}   this is here for copy and pasting purposes lol
 \end{document}
