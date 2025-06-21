@@ -1,0 +1,154 @@
+\documentclass[10pt,letterpaper,sans]{moderncv}
+\moderncvstyle{banking}%classic,banking,oldstyle,fancy,casual
+\moderncvcolor{blue}
+
+\usepackage{lastpage}
+% \rfoot{\addressfont\itshape\textcolor{gray}{Page \thepage}}
+\usepackage{url}
+\usepackage{multicol}
+% \usepackage{fontawesome}
+% \usepackage[bottom]{footmisc} % enabling footnotes
+% \usepackage{amsmath}
+\usepackage[scale=0.94, footskip=0.5cm]{geometry} % Reduce document margins
+\usepackage{mathptmx}
+\setlength{\hintscolumnwidth}{0.5cm} % Uncomment to change the width of the dates column
+\input{details}
+\begin{document}
+\clearpage
+\makecvtitle{}
+\vspace{-20pt}
+
+% \section{Career Target}
+% \colorlet{color1}{black}
+% \subsection{\textbf{Software Engineer -- Computer Graphics}}
+%  Put a couple sentences here
+% New graduate looking to work with industry professionals utilizing the latest graphics APIs such as Vulkan and DirectX. 
+% \vspace{10pt}
+\definecolor{color1}{rgb}{0.22,0.45,0.70}%
+\section{Key Qualifications}
+\cvitem{Languages}{C, C++, C\#, JavaScript, SQL, and Java}
+\cvitem{Software and Technologies}{Unity, Game Maker Studio 2, OpenGL, React, React-Native, NodeJS}
+% \subsection{Additional Skills}
+% \cvitem{Languages}{Native English, Beginner Japanese }
+% \cvitem{Soft}
+% \cvitem{$\bullet$}{Experienced in developing Windows, Linux, and Unix envirionments}
+% \cvitem{$\bullet$}{Native English speaker with excellent written and verbal communication skills}
+% \cvitem{$\bullet$}{Japanese language beginner able to read, write, and speak basic Japanese} 
+
+
+\definecolor{color1}{rgb}{0.22,0.45,0.70}
+\section{Education}
+% \colorlet{color1}{black}
+% \subsection{Bachelor of Science, Computer Science}
+\cventry{2021-2024}{Bachelor of Science, Computer Science}{Western Washington University }{Bellingham, Washington}{3.2}{}
+\cventry{2019-2020}{Associate in Arts and Sciences}{Everett Community College}{Everett, Washington}{}{}
+% \subsection{Relevant Coursework:} 
+% \begin{multicols}{3}
+% \cvitem{$\bullet$}{Algorithms}
+% \cvitem{$\bullet$}{Operating Systems}
+% \cvitem{$\bullet$}{Networking}
+% \columnbreak
+% \cvitem{$\bullet$}{Game Programming}
+% \cvitem{$\bullet$}{Virtual Worlds}
+% \cvitem{$\bullet$}{Mobile Application Development}
+% \columnbreak
+% \cvitem{$\bullet$}{Object Oriented Design}
+% \cvitem{$\bullet$}{Secure Software Development}
+% \cvitem{$\bullet$}{Device Drivers}
+% \end{multicols}
+
+
+\definecolor{color1}{rgb}{0.22,0.45,0.70}
+\section{Employment}
+% \colorlet{color1}{black}
+
+\cventry{2025-2025}{Test Operator}{Technical Systems Incorporated}{Oak Harbor, Washington}{}{}
+% \cvitem{$\bullet$}{Load microprocessor code onto each circuitboard manufactured}
+% \cvitem{$\bullet$}{Perform functional test on circuitboards manufactured at the facility}
+% \cvitem{$\bullet$}{Inspect circuitboards for defects}
+
+
+
+\cventry{2023--2024}{Research Assistant}{Western Washington University}{Bellingham, Washington}{}{}
+    \cvlistitem{Coded a realistic classroom model in Unity that supports many actors that can independently initiate tasks,accomplish goals, and cooperate with other agents}
+    \cvlistitem{Programmed the animations of agents to create a more realistic looking simulation}
+    \cvlistitem{Performed analysis on the practicality of using Large Language Models to power agent behaviors}
+    \cvlistitem{Compared the efficacy of models powered by behavior trees, machine learning, and Large Language Models}
+
+\cventry{2023--2023}{CS Tutor}{Western Washington University}{Bellingham, Washington}{}{}
+    \cvlistitem{Tutored roughly ten students a week on fundamental Computer Science concepts such as object oriented programming, data structures, and computer systems in C, Python, Java, and Racket}
+
+% \subsection{Hawthorne Learning Solutions Tutor (Jan23--Feb23)}
+% \cvitem{$\bullet$}{Tutored a student on fundamental computer systems concepts such as usage of the C language, bitwise operations, and x86 assembly language.}
+
+\cventry{2015--2019}{Aviation Electronics Technician}{United States Navy}{Oak Harbor Washington}{}{}
+% \cvitem{$\bullet$}{Conducted wire repair using soldering irons, multimeters, and time-domain reflectometers.}
+% \cvitem{$\bullet$}{Utilized a work order database to conduct scheduled and unscheduled aircraft maintenance.}
+% \cvitem{$\bullet$}{Troubleshot, diagnosed, and repaired avionics systems such as RADAR, SONAR, and radio communications.}
+% \cvitem{$\bullet$}{Operated a number of diesel and electric aviation support equipment such as aircraft towing equipment, manlifts, and auxilery power units.}
+% \cvitem{$\bullet$}{Ensured other technicians completed work orders in accordance to proper procedures by performing inspections and signing off their work}
+\cvlistitem{Attended daily maintenance meetings to discuss priorities and action items with Maintenance Control}
+\cvlistitem{Worked with a team of technicians to ensure maintenance deadlines were met}
+% \cvitem{$\bullet$}{Performed pre and post flight inspections as well as ensured the saftey of all aircraft movments by ground personel as a qualified Plane Captain}
+
+% \vspace{10pt}
+\definecolor{color1}{rgb}{0.22,0.45,0.70}%
+\section{Projects}
+% \colorlet{color1}{black}
+
+\cvitem{\httplink[Command and Conquer Generals Open Source Project (C++)]{https://github.com/TheSuperHackers/GeneralsGameCode}}
+{
+    \\
+    \cvlistitem{Actively participate in the further discussion and development of Command and Conquer Generals}
+    \cvlistitem{Investigated, documented, and fixed two gameplay bugs that have persisted for over twenty years}
+}
+\cvitem{\httplink[Portfolio and Blog Web Application (.Net, C\#, SQL)]{https://github.com/dizzyj/Ilta-Website}}
+{
+    \\
+    \cvlistitem{Programmed front and back end allowing the user to display their previous projects as well as communicate via blog posts}
+}
+
+\cvitem{\httplink[Sacrostation (Godot)]{https://auranym.itch.io/sacrosation}}
+{
+    \\
+    \cvlistitem{Programmed the player character and enemies using GDScript in the Godot game engine}
+    \cvlistitem{Designed roughly half of the rooms that the player progresses through}
+    \cvlistitem{Sacrostation was voted first in presentation and second overall out of thirty-four entries in the \httplink[Cafe Dot Birthday Jam]{https://itch.io/jam/cafe-dot-bday-jam/rate/2874349}}
+}
+
+\cvitem{\httplink[OpenGLRenderer (C++, GLSL)]{github.com/dizzyj/OpenGLRenderer}}
+{
+    \\
+    \cvlistitem{A personal project to learn graphics programming. Consists of a dynamically lit scene that a can be navigated using the keyboard}
+    \cvlistitem{Created UI elements using ImGui}
+}
+% \cvitem{$\bullet$}{Created a basic 3D renderer that can display multiple 3D objects that are dynamically lit by a light source using the Blinn-Phong model.}
+% \cvitem{$\bullet$}{Wrote various shaders that can apply an image texture to an object and simulate dynamic lighting in GLSL.}
+% \cvitem{$\bullet$}{Coded the project in \textbf{C++} using CMake, GLAD, and GLFW.}
+
+\cvitem{\httplink[Mage Escape (Unity, C\#)]{github.com/dizzyj/MageEscape}}
+{
+    \\
+    \cvlistitem{3D action adventure game where I designed and programmed levels, enemies behaviors, and core game mechanics alongside a team of 3 other developers}
+}
+% \cvitem{$\bullet$}{Worked in a team of four Game Developers to create a 3D person action puzzle game spanning two levels in the Unity game engine.}
+% \cvitem{$\bullet$}{Programmed animations for four different characters and many environmental objects such as chests, doors and torches.}
+% \cvitem{$\bullet$}{Designed and implemented  four enemy AI and combat behaviors.}
+% \cvitem{$\bullet$}{Designed and implemented the player UI}
+
+\cvitem{\httplink[Virtual World Builder System Plugin (Unity, C\#)]{github.com/dizzyj/Virtual-World-BuilderSystem}}
+{
+    \\
+    \cvlistitem{Planned and implemented a system that allows users to build custom objects in a persistent virtual world with a team of three other developers.}
+}
+
+
+
+% \subsection{Additional Experience}
+% \cvitem{$\bullet$}{Intern at Games For Love  (Apr23--Present)}
+%\cvitem{$\bullet$}{One year of Japanese language education} I should either get more education or pass the JLPT test before putting this on here. 
+%  \subsection{}
+%  \cvitem{$\bullet$}{}   this is here for copy and pasting purposes lol
+% \textbf{greatest} 
+% \ cventry {<year --year >}{< degree/job title >}{< institution /employer >}{<city >}{< grade >}{< description >}
+\end{document}
